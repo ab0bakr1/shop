@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="num1 flex-md-column">
+            <h1>احسب سعر الحبه بالجملة</h1>
+            <div class="add">
+                <div class="inputs">
+                    <label for="app">السعر الاجمالي</label>
+                    <input type="number" id="app" />
+                </div>
+                <div class="inputs">
+                    <label for="app1">عدد الحبات</label>
+                    <input type="number" id="app1" />
+                </div>
+                <button onclick="add()" >احسب</button> 
+                <div class="Results" id="app2"></div>
+            </div>
+            <h1>لتحويل السعر من عملة لعملة</h1>
+            <div class="add">
+                <div class="inputs">
+                    <label for="Exchange">سعر الصرف</label>
+                    <input type="number" id="Exchange" />
+                </div>
+                <div class="inputs">
+                    <label for="pill">سعر الحبه</label>
+                    <input type="number" id="pill" />
+                </div>
+                <button onclick="add2()" >احسب</button> 
+                <div class="Results" id="app3"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
